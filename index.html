@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>PurrWords</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+
+    <header>
+      <div class="brand">
+        <h1>PurrWords</h1>
+      </div>
+      <div class="stats">
+        <button class="search-toggle" id="btnSearch" title="Search" aria-label="Search words">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="7"></circle>
+            <line x1="21" y1="21" x2="16.2" y2="16.2"></line>
+          </svg>
+        </button>
+        <span>Score <b id="scoreVal">0</b></span>
+        <span>Streak <b id="streakVal">0</b></span>
+      </div>
+    </header>
+
+    <div class="search-overlay" id="searchOverlay">
+      <div class="search-panel">
+        <div class="search-input-wrap">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="7"></circle>
+            <line x1="21" y1="21" x2="16.2" y2="16.2"></line>
+          </svg>
+          <input type="text" id="searchInput" placeholder="Search a word or phrase…" autocomplete="off">
+          <button class="search-close" id="btnSearchClose" aria-label="Close search">✕</button>
+        </div>
+        <div class="search-results" id="searchResults">
+          <div class="search-empty">Start typing to look up a word's meaning.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout" id="layout">
+
+      <div class="card">
+        <div class="word-box">
+          <h2 id="wordText">—</h2>
+        </div>
+
+        <div class="options five" id="options"></div>
+
+        <div class="sentence-box" id="sentenceBox">—</div>
+
+        <div class="controls">
+          <button class="icon-btn" id="btnExplain" title="Explanation">?</button>
+          <button class="icon-btn" id="btnList" title="My list">list</button>
+          <button class="icon-btn" id="btnAdd" title="Add to list">add</button>
+        </div>
+
+        <div class="explain" id="explainWrap">
+          <div class="explain-inner" id="explainText"></div>
+        </div>
+
+        <button class="next-btn" id="btnNext">Next word →</button>
+      </div>
+
+      <aside class="sidebar" id="sidebar">
+        <h3>My list</h3>
+        <p class="hint">Words you've saved to review later.</p>
+        <div class="list-items" id="listItems"></div>
+      </aside>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
