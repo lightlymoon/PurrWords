@@ -3,7 +3,7 @@
 
 An interactive vocabulary quiz for IELTS prep — built as a lightweight, no-backend web app so anyone can open it, pick an answer, and keep their streak going.
 ### 🌐 Live Demo  
-👉 **[Click here to see the live demo] [lightlymoon.github.io/purrwords](https://lightlymoon.github.io/purrwords/)
+👉 **[Click here to see the live demo] [lightlymoon.github.io/purrwords](https://lightlymoon.github.io/PurrWords/)
 
 ---
 
