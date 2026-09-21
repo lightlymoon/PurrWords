@@ -10,7 +10,7 @@ An interactive vocabulary quiz for IELTS prep — built as a lightweight, no-bac
 
 
 <p align="center">
-  <img src="./assets/purrphone.png" width="70%" height="90%" alt="PurrWords running on mobile — quiz, explanation panel, and saved word list">
+  <img src="./assets/purrphone.png" width="80%" height="90%" alt="PurrWords running on mobile — quiz, explanation panel, and saved word list">
 </p>
 
 <p align="center">
