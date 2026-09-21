@@ -1,24 +1,33 @@
 # 🐾 PurrWords
+<div align="center">
 
 An interactive vocabulary quiz for IELTS prep — built as a lightweight, no-backend web app so anyone can open it, pick an answer, and keep their streak going.
-
-🔗 **Live demo:** [lightlymoon.github.io/purrwords](https://lightlymoon.github.io/purrwords/) <!-- update this if your repo/username differ -->
+### 🌐 Live Demo  
+👉 **[Click here to see the live demo] [lightlymoon.github.io/purrwords](https://lightlymoon.github.io/purrwords/)
 
 ---
 
-## Screenshots
+# 📱 User Interface Preview
 
-
-<p align="center">
-  <img src="./assets/purrphone.png" width="80%" height="90%" alt="PurrWords running on mobile — quiz, explanation panel, and saved word list">
-</p>
+## Desktop Views 
 
 <p align="center">
   <img src="./assets/purrlaptop.png" width="120%" alt="PurrWords vocabulary browsing view on desktop">
 </p>
 
+---
+
+## Mobile Views
+
+<p align="center">
+  <img src="./assets/purrphone.png" width="80%" height="90%" alt="PurrWords running on mobile — quiz, explanation panel, and saved word list">
+</p>
+
+
+
 
 ---
+</div>
 
 ## Features
 
