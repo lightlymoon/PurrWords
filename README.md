@@ -10,9 +10,9 @@ An interactive vocabulary quiz for IELTS prep — built as a lightweight, no-bac
 # 📱 User Interface Preview
 
 ## Desktop Views 
-
-
-
+<p align="center">
+  <img src="./assets/purrlaptop.png" width="120%" alt="PurrWords vocabulary browsing view on desktop">
+</p>
 ---
 
 ## Mobile Views
