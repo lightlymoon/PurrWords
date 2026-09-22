@@ -77,3 +77,11 @@ This started as a personal + friends study tool, but PRs adding new words, fixin
 ## License
 
 MIT — free to use, modify, and share.
+## ⭐ Support ⭐ 
+⋆⭒˚.⋆ If you like this project, do not forget to give a star ⋆⭒˚.⋆
+</div>
+
+<p align="center">
+  ⚠️ This README is uniquely designed by <strong>@lightlymoon.</strong>
+</p>
+
